@@ -9,7 +9,7 @@ ol {
   list-style-type: none;
 }
 
-* {
+a {
   text-decoration: none;
 }
 .logo {
@@ -62,12 +62,20 @@ ol {
   text-align: center;
   color: #fff;
 }
-.hero-button {
+
+button {
   cursor: pointer;
   font-family: inherit;
-  background-color: #4d5ae5;
-  color: #fff;
 }
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
@@ -127,4 +135,21 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/* Page footer */
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
