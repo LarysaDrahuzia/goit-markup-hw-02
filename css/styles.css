@@ -95,15 +95,14 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.features-subject {
-  display: none;
-}
+
 /* Our Team */
 .team-section {
   background-color: #f4f4fd;
 }
 .team-subject,
 .portfolio-subject {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
